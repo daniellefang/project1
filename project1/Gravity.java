@@ -8,6 +8,7 @@
 public class Gravity
 {
     // instance variables - replace the example below with your own
+    //Gravity class
     private int x;
 
     /**
