@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Control()
+<<<<<<< HEAD
 comment1.params=
 comment1.target=void\ move()
 comment2.params=
@@ -14,3 +15,10 @@ comment5.target=void\ keyPressed(java.awt.event.KeyEvent)
 comment6.params=k
 comment6.target=void\ keyReleased(java.awt.event.KeyEvent)
 numComments=7
+=======
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Control\n
+comment1.params=y
+comment1.target=int\ sampleMethod(int)
+comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+numComments=2
+>>>>>>> e373b6519a64ff08980d49b7248656dfe228ad84
