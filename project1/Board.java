@@ -1,33 +1,61 @@
 
-/**
- * Write a description of class Board here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Board
-{
-    // instance variables - replace the example below with your own
-    private int x;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
-    /**
-     * Constructor for objects of class Board
-     */
-    public Board()
-    {
-        // initialise instance variables
-        x = 0;
+ import javax.swing.JPanel;
+import javax.swing.Timer;
+
+
+public class Board extends JPanel implements ActionListener {
+
+    private Timer timer;
+    private Control craft;
+
+    public Board() {
+
+        addKeyListener(new TAdapter());
+        setFocusable(true);
+        setBackground(Color.BLACK);
+        setDoubleBuffered(true);
+
+        craft = new Control();
+
+        timer = new Timer(5, this);
+        timer.start();
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+
+    public void paint(Graphics g) {
+        super.paint(g);
+
+        Graphics2D g2d = (Graphics2D)g;
+        g2d.drawImage(craft.getImage(), craft.getX(), craft.getY(), this);
+        Toolkit.getDefaultToolkit().sync();
+        g.dispose();
     }
+
+
+    public void actionPerformed(ActionEvent e) {
+        craft.move();
+        repaint();  
+    }
+
+
+    private class TAdapter extends KeyAdapter {
+
+        public void keyReleased(KeyEvent e) {
+            craft.keyReleased(e);
+        }
+
+        public void keyPressed(KeyEvent e) {
+            craft.keyPressed(e);
+        }
+    }
+
 }

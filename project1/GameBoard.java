@@ -7,7 +7,7 @@ public class GameBoard extends JFrame {
     {
         //uses the board class to make the game
         add(new Board());
-        
+        boolean b = true;
         //the window closes when the x button is clicked
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //sets the size of the window
@@ -19,7 +19,7 @@ public class GameBoard extends JFrame {
         //window can not be resized
         setResizable(false);
         //able to be seen
-        setVisable(true);
+        setVisible(b);
     }
     public static void main(String[] args)
     {    new GameBoard();
