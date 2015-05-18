@@ -13,4 +13,6 @@ comment5.params=k
 comment5.target=void\ keyPressed(java.awt.event.KeyEvent)
 comment6.params=k
 comment6.target=void\ keyReleased(java.awt.event.KeyEvent)
-numComments=7
+comment7.params=plat
+comment7.target=boolean\ isTouching(Platform)
+numComments=8

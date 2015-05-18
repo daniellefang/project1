@@ -71,4 +71,12 @@ public class Control
         if (key == KeyEvent.VK_DOWN)
             dy = 0;
     }
+    
+    public boolean isTouching (Platform plat)
+    {
+       // if (x >= plat.getXCoord() && x <= plat.getXCoord() + 
+            dy = 0;
+        
+       return false;
+    }
 }

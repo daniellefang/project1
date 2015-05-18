@@ -9,25 +9,39 @@ public class Platform
 {
     // instance variables - replace the example below with your own
     private int x;
+    private int y;
+    private int length;
+    private int width;
 
     /**
      * Constructor for objects of class Platform
      */
-    public Platform()
+    public Platform(int xpos, int ypos, int l, int w)
     {
         // initialise instance variables
-        x = 0;
+        x = xpos;
+        y = ypos;
+        length = l;
+        width = w;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public int getXCoord()
     {
-        // put your code here
-        return x + y;
+        return x;
+    }
+    
+    public int getYCoord()
+    {
+        return y;
+    }
+    
+    public int getLength()
+    {
+        return length;
+    }
+    
+    public int getWidth()
+    {
+        return width;
     }
 }
