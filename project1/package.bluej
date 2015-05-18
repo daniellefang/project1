@@ -2,106 +2,66 @@
 dependency1.from=GameBoard
 dependency1.to=Board
 dependency1.type=UsesDependency
+dependency2.from=Board
+dependency2.to=Control
+dependency2.type=UsesDependency
 objectbench.height=76
 objectbench.width=662
 package.editor.height=400
 package.editor.width=560
-<<<<<<< HEAD
-package.editor.x=795
-package.editor.y=187
-package.numDependencies=0
-package.numTargets=3
-=======
-package.editor.x=1100
-package.editor.y=370
-package.numDependencies=1
-package.numTargets=6
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
+package.editor.x=212
+package.editor.y=64
+package.numDependencies=2
+package.numTargets=5
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-<<<<<<< HEAD
-target1.editor.x=289
-target1.editor.y=292
-=======
-target1.editor.x=97
-target1.editor.y=259
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
+target1.editor.x=-113
+target1.editor.y=370
 target1.height=50
 target1.name=GameBoard
+target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
-<<<<<<< HEAD
-target1.width=80
-target1.x=160
-target1.y=10
-target2.appletHeight=500
-target2.appletWidth=500
-target2.editor.height=700
-target2.editor.width=900
-target2.editor.x=176
-=======
 target1.width=100
-target1.x=60
+target1.x=10
 target1.y=130
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=385
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
+target2.editor.x=289
 target2.editor.y=292
 target2.height=50
 target2.name=Gravity
 target2.naviview.expanded=true
-<<<<<<< HEAD
-target2.numberAppletParameters=0
-=======
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
-<<<<<<< HEAD
-target2.width=90
-=======
 target2.width=80
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
-target2.x=70
-target2.y=70
+target2.x=160
+target2.y=10
 target3.appletHeight=500
 target3.appletWidth=500
 target3.editor.height=700
-<<<<<<< HEAD
-target3.editor.width=778
-target3.editor.x=10
-target3.editor.y=149
-target3.height=50
-target3.name=Control
-=======
 target3.editor.width=900
-target3.editor.x=70
+target3.editor.x=176
 target3.editor.y=292
 target3.height=50
 target3.name=GraphicsV1
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
 target3.naviview.expanded=true
 target3.numberAppletParameters=0
 target3.showInterface=false
 target3.type=AppletTarget
 target3.typeParameters=
-<<<<<<< HEAD
-target3.width=80
-target3.x=170
-target3.y=70
-=======
 target3.width=90
-target3.x=160
-target3.y=10
+target3.x=70
+target3.y=70
 target4.editor.height=700
 target4.editor.width=900
-target4.editor.x=908
-target4.editor.y=175
+target4.editor.x=54
+target4.editor.y=165
 target4.height=50
 target4.name=Board
 target4.naviview.expanded=true
@@ -109,32 +69,18 @@ target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=80
-target4.x=190
-target4.y=210
+target4.x=70
+target4.y=10
 target5.editor.height=700
-target5.editor.width=900
-target5.editor.x=876
-target5.editor.y=278
+target5.editor.width=778
+target5.editor.x=10
+target5.editor.y=149
 target5.height=50
-target5.name=hi
+target5.name=Control
 target5.naviview.expanded=true
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
 target5.width=80
-target5.x=70
-target5.y=10
-target6.editor.height=700
-target6.editor.width=900
-target6.editor.x=385
-target6.editor.y=292
-target6.height=50
-target6.name=Control
-target6.naviview.expanded=true
-target6.showInterface=false
-target6.type=ClassTarget
-target6.typeParameters=
-target6.width=90
-target6.x=160
-target6.y=70
->>>>>>> 7905f66d4426ce26055ae9ce78cbf30709e8066a
+target5.x=170
+target5.y=70
